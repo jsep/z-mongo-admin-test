@@ -1,5 +1,8 @@
 {
   "packages": {
-    "z-mongo-admin": {}
+    "z-mongo-admin": {        
+      "git": "https://github.com/juan-lavaina/meteor-admin-ui.git",
+      "branch": "fix-errors"
+    }
   }
 }

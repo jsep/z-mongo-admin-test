@@ -2,13 +2,16 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "z-mongo-admin": {}
+      "z-mongo-admin": {
+        "git": "https://github.com/juan-lavaina/meteor-admin-ui.git",
+        "branch": "fix-errors"
+      }
     },
     "packages": {
       "z-mongo-admin": {
-        "git": "https://github.com/gterrono/meteor-admin-ui.git",
-        "tag": "v0.2.0",
-        "commit": "deb7ae9b4042469424ff668c72982fb83fe1cc40"
+        "git": "https://github.com/juan-lavaina/meteor-admin-ui.git",
+        "branch": "fix-errors",
+        "commit": "6799c887d0ed47ba0dd084e97aadb5e3fbcfd7d2"
       },
       "router": {
         "git": "https://github.com/tmeasday/meteor-router.git",
